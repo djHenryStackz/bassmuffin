@@ -1,17 +1,22 @@
-# Akash Hello World
+# BassMuffin
 
 Example: 
+
+--> this is the template from which i am working
+
 - http://8lim5k05ft9bhdm12vpvrghcr8.ingress.ewr1p0.mainnet.akashian.io
 - https://akashhw.tombeynon.co.uk ([same site](https://github.com/tombeynon/akash-hello-world/blob/master/deploy.yml#L11), uses a CNAME and cloudflare SSL)
 
-This is an example of how to run a simple HTML/CSS/JS site on Akash. I wrote this to document the process for myself and it's my first time working with Akash, so please treat accordingly. 
+This is an example of how to run a simple HTML/CSS/JS site on Akash (Using Apache and NOT nginx as in the template).
+
+This is my first time working with Akash, so please be gentle :) 
 
 Make sure you've read the [Akash docs](https://docs.akash.network/) first and use this as a working example. The included Makefile simplifies the process but you should have a look at it and understand what it's doing. 
 
 Some issues I'm aware of:
 
 - ~~We don't verify the host with signedBy. I wasn't sure what to use here as the docs had testnet addresses~~
-- Fees are probably set too high (5000 uakt / 0.005 akt) but I kept getting timeouts
+- Fees are probably set too high (5000 uakt / 0.005 akt) but I kept getting timeouts (we will see how it goes this is from the original template creator)
 
 I'll update this repo as I learn more.
 
