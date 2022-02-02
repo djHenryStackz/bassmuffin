@@ -1,14 +1,14 @@
 ---
-version: "2.0"
+version: "1.0"
 
 services:
   web:
-    image: tombeynon/akash-hello-world:release-v0.1.1
+    image: djHenryStackz/bassmuffin
     expose:
       - port: 80
         as: 80
         accept:
-          - akashhw.tombeynon.co.uk
+          - bassmuffin.com
         to:
           - global: true
 
@@ -28,7 +28,7 @@ profiles:
         host: akash
       signedBy:
         anyOf:
-          - "akash1365yvmc4s7awdyj3n2sav7xfx76adc6dnmlx63"
+          - "akash1tqx5m8sgdcd0eksm8ru9pfzf4g9l8pffwmat3d"
       pricing:
         web:
           denom: uakt
