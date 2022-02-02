@@ -7,7 +7,7 @@ Example:
 - http://8lim5k05ft9bhdm12vpvrghcr8.ingress.ewr1p0.mainnet.akashian.io
 - https://akashhw.tombeynon.co.uk ([same site](https://github.com/tombeynon/akash-hello-world/blob/master/deploy.yml#L11), uses a CNAME and cloudflare SSL)
 
-This is an example of how to run a simple HTML/CSS/JS site on Akash (Using Apache and NOT nginx as in the template).
+This is an example of how to run a simple HTML/CSS/JS site on Akash (Using Apache and NOT nginx which is what tombeynon used in the orginal template).
 
 This is my first time working with Akash, so please be gentle :) 
 
