@@ -1,15 +1,12 @@
-# BassMuffin
+#BassMuffin
 
-Example: 
+BassMuffin is a simple webapp served by Apache and deployed to the Akash blockchain. It is based on this great template:
 
---> this is the template from which i am working
-
-- http://8lim5k05ft9bhdm12vpvrghcr8.ingress.ewr1p0.mainnet.akashian.io
-- https://akashhw.tombeynon.co.uk ([same site](https://github.com/tombeynon/akash-hello-world/blob/master/deploy.yml#L11), uses a CNAME and cloudflare SSL)
-
-This is an example of how to run a simple HTML/CSS/JS site on Akash (Using Apache and NOT nginx which is what tombeynon used in the orginal template).
+https://github.com/tombeynon/akash-hello-world
 
 This is my first time working with Akash, so please be gentle :) 
+
+Other than my use of Apache the rest below is the same as in the template:
 
 Make sure you've read the [Akash docs](https://docs.akash.network/) first and use this as a working example. The included Makefile simplifies the process but you should have a look at it and understand what it's doing. 
 
