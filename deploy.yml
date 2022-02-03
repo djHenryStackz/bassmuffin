@@ -3,7 +3,7 @@ version: "2.0"
 
 services:
   web:
-    image: djHenryStackz/bassmuffin
+    image: andydelish/bassmuffin:release-v0.1.0
     expose:
       - port: 80
         as: 80
