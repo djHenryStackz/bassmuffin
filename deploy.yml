@@ -24,12 +24,7 @@ profiles:
           size: 512Mi
   placement:
     dcloud:
-      attributes:
-        host: akash
-      signedBy:
-        anyOf:
-          - "akash1tqx5m8sgdcd0eksm8ru9pfzf4g9l8pffwmat3d"
-      pricing:
+       pricing:
         web:
           denom: uakt
           amount: 100
